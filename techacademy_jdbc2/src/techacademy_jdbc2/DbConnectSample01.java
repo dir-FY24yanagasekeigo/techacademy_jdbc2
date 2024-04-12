@@ -23,7 +23,7 @@ public class DbConnectSample01 {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost/world?useSSL=false&allowPublicKeyRetrieval=true",
                     "root",
-                    "_KeyMySql123"
+                    "_KeiMySql123"
                     );
             
             // 3. DBとやりとりする窓口（Statementオブジェクト）の作成
